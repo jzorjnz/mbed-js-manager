@@ -1,0 +1,26 @@
+{
+  "name": "mbed-js-manager",
+  "version": "1.0.0",
+  "description": " JS Manager for loading and running JS files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syed-zeeshan/mbed-js-manager.git"
+  },
+  "keywords": [
+    "mbed",
+    "js",
+    "js-manager",
+    "st",
+    "mbed-os"
+  ],
+  "author": "ST",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syed-zeeshan/mbed-js-manager/issues"
+  },
+  "homepage": "https://github.com/syed-zeeshan/mbed-js-manager#readme"
+}

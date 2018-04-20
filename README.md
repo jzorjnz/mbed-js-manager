@@ -26,6 +26,21 @@ cd project_path
 npm install syed-zeeshan/mbed-js-manager
 ```
 
+## Configuration
+To use JS Manager, you need to configure the memory size you want to reserve from flash storage to be used for storing JS program. Open `mbed_app.json` and set the field `target.restrict-size` to restrict the main program size.
+
+**Example for Nucleo-F429ZI:**
+
+```
+{
+    "target_overrides": {
+        "NUCLEO_F429ZI": {
+            "target.restrict_size": "0x80000"
+        }
+    }
+}
+```
+
 ## Usage
 ```
 // Initialize
